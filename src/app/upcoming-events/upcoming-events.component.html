@@ -1,10 +1,10 @@
 <div class='upcoming-events'>
-    <h2>{{title}}</h2>
-    <div class='upcoming-events__image'>
-        <img [src]='forest'>
+    <p>{{title}}</p>
+    <div class='upcoming-events__image-container'>
+        <img [src]='image'>
     </div>
-
-    <h3>{{evento}}</h3>
+    <p><strong>{{evento}}</strong></p>
+    <p>{{data}}</p>
     <div class='upcoming-events__actions'>
         <button class='btn-info'(click)='infoHandler()'>Info</button>
     </div>
