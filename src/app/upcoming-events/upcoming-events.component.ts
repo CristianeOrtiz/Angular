@@ -10,6 +10,7 @@ export class UpcomingEventsComponent implements OnInit {
   public title:string
   public evento:string
   public image:string
+  public data:string
 
   constructor() { }
 
@@ -17,6 +18,7 @@ export class UpcomingEventsComponent implements OnInit {
     this.title = 'Próximos Eventos:';
     this.evento = 'Feriado';
     this.image = 'assets/forest.jpg';
+    this.data = 'Sexta-feira 15:00'
   }
 
   infoHandler():void{
